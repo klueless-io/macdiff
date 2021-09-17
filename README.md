@@ -1,4 +1,4 @@
-# Macdiff sean
+# Macdiff
 
 > MacDiff is a command line tool for visualizing folder differences using the MAC diff command
 
