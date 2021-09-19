@@ -1,0 +1,34 @@
+{ 
+  differ: []
+Files sample1/config/_.rb and sample2/config/_.rb differ
+Files sample1/config/app_settings.rb and sample2/config/app_settings.rb differ
+Files sample1/config/builder_options.rb and sample2/config/builder_options.rb differ
+Files sample1/config/configure_builder.rb and sample2/config/configure_builder.rb differ
+Files sample1/custom_actions/_.rb and sample2/custom_actions/_.rb differ
+Files sample1/helpers/_.rb and sample2/helpers/_.rb differ
+Files sample1/initializers/handlebars_helpers.rb and sample2/initializers/handlebars_helpers.rb differ
+Files sample1/setup.rb and sample2/setup.rb differ
+
+  folder1: [
+
+    { folder: 'sample1/custom_actions', name: 'create_projects.rb', type: 'file'
+    { folder: 'sample1', name: 'custom_builders', type: 'folder'
+    { folder: 'sample1', name: 'goals.md', type: 'file'
+
+
+  ]
+
+  folder2: []
+
+  sample2/custom_actions: base_action.rb
+  sample2/custom_actions: base_step.rb
+  sample2/custom_actions: data_context
+  sample2/custom_actions: generator
+  sample2/custom_actions: printer
+  sample2/custom_actions: rails_db_schema
+  sample2/custom_actions: rails_domain
+  sample2/helpers: custom_actions_class_helper.rb
+  sample2: models
+  sample2: snippet_generators
+
+}
