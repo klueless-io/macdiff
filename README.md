@@ -8,6 +8,12 @@ When using the source code for this gem, start by running `bin/setup` to install
 
 To experiment with that code, run `bin/console` for an interactive prompt or run `exe/macdiff` to see a list of commands.
 
+## Sean to investigate
+
+- [Diff](https://github.com/samg/diffy)
+- [Diff-lcs](https://github.com/halostatue/diff-lcs)
+- [Tutorial](https://www.botreetechnologies.com/blog/compare-text-differences-between-two-contents-using-ruby-on-rails/)
+
 ## Installation
 
 Add this line to your application's Gemfile:
