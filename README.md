@@ -14,6 +14,19 @@ To experiment with that code, run `bin/console` for an interactive prompt or run
 - [Diff-lcs](https://github.com/halostatue/diff-lcs)
 - [Tutorial](https://www.botreetechnologies.com/blog/compare-text-differences-between-two-contents-using-ruby-on-rails/)
 
+- HTML Examples
+
+- https://codepen.io/ramnathv/pen/XEmaoE
+- https://github.com/rtfpessoa/diff2html#diff2htmlui-examples
+- https://github.com/kpdecker/jsdiff
+- https://diff2html.xyz/
+
+- SEAN TO INVESTIGATE
+- https://github.com/banga/git-split-diffs
+- https://github.com/ymattw/ydiff
+- https://github.com/jeffkaufman/icdiff
+- https://www.atlassian.com/git/tutorials/saving-changes/git-diff
+
 ## Installation
 
 Add this line to your application's Gemfile:
