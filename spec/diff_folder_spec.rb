@@ -28,25 +28,18 @@ RSpec.describe DiffFolder do
       context '.raw_output' do
         subject { instance.raw_output }
 
-        fit {
-          instance.debug
-        }
+        it { is_expected.to_not be_empty }
+        it { instance.debug }
+      end
+
+      context '.output' do
+        subject { instance.output }
+
+        fit { 
+          puts subject }
+          # is_expected.to_not be_empty }
+        # fit { instance.debug }
       end
     end
   end
-
-  # it 'display files' do
-  #   puts 'blah'
-  #   subject.run
-  # end
-
-  # context 'different fodlers' do
-  #   let(:folder2) { 'b' }
-
-  #   it 'display files' do
-  #     puts 'blah'
-  #     subject.run
-  #   end
-  
-  # end
 end
